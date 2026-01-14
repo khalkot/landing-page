@@ -1,0 +1,38 @@
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.sides{
+    flex: 1;
+    height: 100vw;
+}
+
+header{
+    padding: 24px;
+    flex: 6;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
