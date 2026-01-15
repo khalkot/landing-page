@@ -13,18 +13,26 @@ body{
 }
 
 .top-section{
-/*     display: flex;
- */    padding: 1em 8em;
+    height: 32em;
+    padding: 1em 12em;
     background-color: #1F2937;
     color: #f9faf8;
-    height: 32em;
-    font-size: 24px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+header p{
+font-size: 24px;
+font-weight: 900;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 0;
 }
 
 ul{
@@ -39,6 +47,38 @@ a{
     color: #e5e7eb;
 }
 
-hero-section{
+.hero-section{
+    display: flex;
+    gap: 40px;
+    h1{
+        font-size: 48px;
+        font-weight: 900;
+    }
+    p{
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+
+    button{
+        color: #f9faf8;
+        font-size: 18px;
+        width: 120px;
+        height: 36px;
+        border-radius: 6px;
+        border: none;
+        background-color: #3882f6;
+        margin-top: 16px;
+    }
+
+    .image-placeholder{
+        background-color: #6D747D;
+        height:250px;
+        width:500px;
+        flex-shrink: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
