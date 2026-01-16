@@ -102,17 +102,43 @@ a{
         gap: 50px;
 
         .illustration-placeholder{
-            height: 150px;
-            width: 150px;
+            height: 125px;
+            width: 125px;
             border: #3882f6 solid 4px;
             border-radius: 12px;
         }
 
         p{
-            margin-top: 16px;
-            width: 150px;
+            margin-top: 8px;
+            width: 125px;
             text-align: center;
             color: #6D747D;
+            font-size: 12px;
+            font-weight: 500;
         }
+    }
+
+}
+
+.section-3{
+    padding: 4em 18em;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+
+    .quote{
+        align-self: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .authorsdd{
+        align-self: end;
+        padding: 1em;
+        font-weight: bold;
+        color: #1F2937;
+        font-size: 18px;
     }
 }
